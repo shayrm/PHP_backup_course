@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="windows-1255">
+		<title>Coupon upload page</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="Adding coupons form">
+    	<meta name="author" content="Shay RM">
+    	<link rel="shortcut icon" href="bootstrap-3.0.0/assets/ico/favicon.png">
+		
+		<!-- Bootstrap core CSS -->
+    	<link href="bootstrap-3.0.0/dist/css/custom.css" rel="stylesheet">
+    	
+    	<!-- Custom styles for footer template -->
+    	<link href="bootstrap-3.0.0/dist/css/sticky-footer.css" rel="stylesheet">
+    	
+		
+		
+	</head>
+
+<body>
+
+<!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container theme-showcase">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+      </div>
+
+<!-- ########### --------------################################ -->
+
+<form class="form-horizontal" action="uploadCouponFile.php" method="post">
+<fieldset>
+
+<!-- Form Name -  ************ coupon request form ******************-->
+
+<legend>Form to upload new coupons</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="form-control" for="coupunName">* Coupon Name:</label>
+  <div class="form-control">
+    <input id="coupunName" class="input-lg" name="coupunName" type="text" autocomplete="on" placeholder="specify the coupon name" required>
+    <p class="help-block">It is better to make the coupon name unique </p>
+  </div>
+</div>
+
+<!-- Text input
+<div class="form-group">
+  <label class="control-label" for="couponID">* Coupon ID</label>
+  <div class="controls">
+    <input id="couponID" class="input-xlarge" name="couponID" type="number" autocomplete="on" min="1" max="9999" placeholder="ID number (1-9999)" required>
+    <p class="help-block">Please enter the Coupon ID number</p>
+  </div>
+</div>
+
+<!-- Select Basic 
+<div class="form-group">
+  <label class="control-label" for="businessName">* Business name:</label>
+  <div class="controls">
+    <select id="businessName" class="input-xlarge" name="businessName">
+      <option>bikeLine</option>
+      <option>foodInc</option>
+      <option>movieStar</option>
+      <option>runLola</option>
+      <option>feadMe</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic 
+<div class="control-group">
+  <label class="control-label" for="couponCategory">* Select coupon category:</label>
+  <div class="controls">
+    <select id="couponCategory" class="input-xlarge" name="couponCategory">
+      <option>Sport</option>
+      <option>Restaurants</option>
+      <option>Entertainments</option>
+    </select>
+  </div>
+</div>
+
+<!-- File Button  
+<div class="control-group">
+  <label class="control-label" for="fileCoupon">Upload coupon file image:</label>
+  <div class="controls">
+    <input type="file" id="fileCoupon" class="input-file" name="fileCoupon"  accept="image/*"><br>
+  </div>
+</div>
+<div class="control-group">
+	<div class="controls">
+		<input type="submit" value="Submit">
+	</div>
+</div>
+-->
+
+</fieldset>
+</form>
+
+
+
+<!-- ################# Footer part ################# -->
+
+ <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">The coupon admin page <a href="CouponFormWithBootstrap.html">The Coupon System</a> and with assosiated with <a href="http://www.abelski.com/">Haim Michael - PHP course #8</a>.</p>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+</body>
+</html>

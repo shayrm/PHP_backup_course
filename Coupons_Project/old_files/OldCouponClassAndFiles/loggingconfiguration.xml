@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/">
+ 
+	<appender name="fileappender" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutPattern" />
+		<param name="file" value="AAAproject_logs.log" />
+	</appender>
+ 
+	<appender name="fileappender-2" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutPattern">
+		<param name="conversionPattern" value="%date{Y-m-d H:i:s,u} [%logger] %message%newline" />
+		</layout>
+		<param name="file" value="BBBproject_logs.log" />
+	</appender>
+ 
+	<logger name="Something">
+		<appender_ref ref="fileappender" />
+	</logger>
+ 
+	<logger name="CouponsPlatformDAO">
+		<appender_ref ref="fileappender-2" />
+	</logger>
+</log4php:configuration>

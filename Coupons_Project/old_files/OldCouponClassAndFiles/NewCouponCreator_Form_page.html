@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="windows-1255">
+		<title>Administrator Add Coupon Web Form</title>
+		
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="Adding coupons form">
+    	<meta name="author" content="Shay RM">
+    	<link rel="shortcut icon" href="bootstrap-3.0.0/assets/ico/favicon.png">
+		
+		<!-- Bootstrap core CSS -->
+    	<link href="Coupon_CSS_file_from_Pure-min.css" rel="stylesheet">
+    	
+		
+	</head>
+<body>
+
+<h1>Administrator Add Coupon Web Form</h1>
+<p>please use the form below to add new coupon </p>
+
+
+<!--div style="color:green;"-->
+<!-- Form Name -  ************ coupon request form ******************-->
+
+	<form class="pure-form pure-form-aligned" action="uploadCouponFile.php" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Form to upload new coupons</legend>
+				
+				<div class="pure-control-group">
+					<label for="couponName">The name of the Coupon:</label>
+					<input id="couponName" type="text" name="couponName" autocomplete="on" autofocus="autofocus" placeholder="Coupon Name">
+				</div>
+				
+				<!--  
+					<div class="pure-control-group">
+					<label for="couponID">The ID number of the Coupon:</label>
+					<input id="couponID" type="text" name="couponID" autocomplete="on" placeholder="Coupon ID">
+				</div>
+				-->
+				
+				<div class="pure-control-group">
+					<label for="couponDesc">Coupon Description:</label>
+					<input class="pure-input-1-3" id="couponDesc" type="text" name="couponDesc" autocomplete="on" placeholder="Coupon Description">
+				</div>
+	
+			<!-- h5 style="color:red; display:inline;">	* Coupon Name:</h5>  <input type="text" name="coupunName" size="20px" autocomplete="on" autofocus="autofocus" placeholder="Name it!" required><br-->
+			<!-- h5 style="color:red;display:inline;">	* Coupon ID:</h5>	<input type="number" name="couponID" size="20px" autocomplete="on" min="1" max="9999" placeholder="ID number" required><br-->
+	
+			<div class="pure-control-group">
+			<label for="businessName"> * Business name: </label>
+			
+			<!--  h5 style="color:red;display:inline;"> * Business name:</h5--> 
+				<select id="businessID" name="businessID">
+					<option lable="BikeLine" value="1">Bike line </option>
+					<option lable ="FoodInc" value="2"> Food Inc </option>
+					<option lable = "MovieStar" value="3"> Movie Star</option>
+					<option lable ="RunLola" value="4"> Run Lola </option>
+					<option lable ="feadMe" value="5"> Fead Me </option>
+				</select><BR>
+			</div>
+			
+			<div class="pure-control-group">
+				<label for="couponCategory"> *Select coupon category: </label>
+					<!--  h5 style="color:red;display:inline;">*Select coupon category:</h5-->
+			
+				<select name="couponCategoryID">
+					<option lable="sport" value="1">Sport</option>
+					<option lable="restaurants" value="2">Restaurants</option>
+					<option lable="entertainments" value="3">Entertainments</option>
+				</select><BR><br>
+			</div>
+			
+			<div class="pure-control-group">
+				<label for="fileCoupon">* Upload coupon file image:</label>
+				<!-- h5 style="color:blue;"display:inline;>Upload coupon file image:</h5-->
+				<input type="file" name="fileCoupon" id="fileCoupon" accept="image/*"><BR>
+			</div>
+			
+			<div class="pure-controls">
+				<button type="submit" class="pure-button pure-button-primary">Submit</button>
+        	</div>
+					
+			<!-- input type="submit" value="Submit"-->
+	
+	</fieldset>
+	</form>
+
+</div>
+
+	<br>
+		<div>
+		<br>
+		<a class="pure-button pure-button-active" href="./uploadCouponInformation.php">List Coupon info</a>
+		</div>
+
+</body>
+</html>

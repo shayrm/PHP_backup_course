@@ -1,0 +1,12 @@
+<script language="JavaScript">
+xmlDoc=new window.XMLHttpRequest();
+xmlDoc.open("GET",
+"data.xml",false);
+xmlDoc.send("");
+ob = xmlDoc.responseXML.documentElement;
+childs = ob.childNodes;
+for(i=0;i<childs.length;i++)
+{
+document.write(childs[0].nodeType+"<br>");
+}
+</script>

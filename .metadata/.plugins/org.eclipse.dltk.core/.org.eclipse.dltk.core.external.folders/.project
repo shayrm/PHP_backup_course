@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.dltk.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link10</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/com.zend.php.core/__language__/ae1d36ac</location>
+		</link>
+		<link>
+			<name>.link11</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/org.eclipse.php.core/__language__/f91a8417</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/org.eclipse.php.core/__language__/8c86d9f3</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/com.zend.php.core/__language__/ce6eaec5</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/com.zend.php.core/__language__/49d1de34</location>
+		</link>
+		<link>
+			<name>.link9</name>
+			<type>2</type>
+			<location>C:/wamp2.5/www/CodeWithZend/.metadata/.plugins/com.zend.php.core/__language__/2a7ae34d</location>
+		</link>
+	</linkedResources>
+</projectDescription>

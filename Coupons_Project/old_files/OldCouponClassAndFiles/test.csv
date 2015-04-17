@@ -1,0 +1,19 @@
+
+ID,category_id,business_id,name, description,imagefilename 
+1,1,1,FreeRide,Get a free ride for one of the movie you like,220px-Mozaic-garden004.jpg 
+2,3,3,Movie Discount,Once again we have to go to the movies,מערכת שעות ג 1.JPG 
+3,2,2,free meal,Once again we have to go eat,EPC_Interfaces.JPG 
+4,1,4,GotIT,Let me get a free one,Luna_Park_1.jpg 
+5,1,4,GotIT,Let me get a free one,Luna_Park_1.jpg 
+6,2,2,ShayBit,Eat as you like,Luna_Park_1.jpg 
+7,1,1,Redbull,Free ticket to Redbull game,Cake_3-facebook_1385020815.jpg 
+8,1,1,Shimon,Shimon the great,Luna_Park_1.jpg 
+ID,category_id,business_id,name, description,imagefilename 
+1,1,1,FreeRide,Get a free ride for one of the movie you like,220px-Mozaic-garden004.jpg 
+2,3,3,Movie Discount,Once again we have to go to the movies,מערכת שעות ג 1.JPG 
+3,2,2,free meal,Once again we have to go eat,EPC_Interfaces.JPG 
+4,1,4,GotIT,Let me get a free one,Luna_Park_1.jpg 
+5,1,4,GotIT,Let me get a free one,Luna_Park_1.jpg 
+6,2,2,ShayBit,Eat as you like,Luna_Park_1.jpg 
+7,1,1,Redbull,Free ticket to Redbull game,Cake_3-facebook_1385020815.jpg 
+8,1,1,Shimon,Shimon the great,Luna_Park_1.jpg 

@@ -1,0 +1,1 @@
+welcome to <?php echo $company ?> official web site

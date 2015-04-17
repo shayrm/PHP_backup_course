@@ -1,0 +1,6 @@
+2014-11-29T09:33:23+01:00 INFO  CouponsPlatformDAO running MySQL query: SELECT * FROM coupon_db.coupons
+2014-11-29T10:42:32+01:00 INFO  CouponsPlatformDAO running MySQL query: SELECT * FROM coupon_db.coupons
+2014-11-29T10:44:37+01:00 INFO  CouponsPlatformDAO running MySQL query: SELECT * FROM coupon_db.coupons
+INFO - running MySQL query: SELECT * FROM coupon_db.coupons
+INFO - running MySQL query: SELECT * FROM coupon_db.coupons
+INFO - running MySQL query: SELECT * FROM coupon_db.coupons

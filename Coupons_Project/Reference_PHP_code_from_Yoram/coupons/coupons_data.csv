@@ -1,0 +1,10 @@
+coupon_id,coupon_name,coupon_description
+1234,Test," rger "
+5001,"20% off","Get 20% of the items pricelist"
+5002,"30% off","Get 30% of the items pricelist"
+5003,"Buy 1 get 1","Buy 1 item and get the second for free"
+5004,"Buy 2 get 1","Buy 2 item and get the second for free"
+5005,"Buy 3 get 1","  Buy 3 get 1 for free"
+5006,"Buy 4 get 3","  Buy 4 get 3 for free"
+5008,"Buy 4 get 3","  Buy 4 get 3 for free"
+12345,Temp,"  test"

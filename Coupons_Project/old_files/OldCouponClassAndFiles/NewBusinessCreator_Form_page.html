@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Administrator Add New Business information to the DB -  Web Form</title>
+</head>
+<body>
+
+<h1>Administrator Add Business info Web Form</h1>
+<p>please use the form below to add new Busniess record to the DB </p>
+
+<div style="color:green;">
+
+	<form action="addNewBusinesstoDB.php" method="post" enctype="multipart/form-data">
+		<h5 style="color:red; display:inline;">	* Buiness Name:</h5>  <input type="text" name="businessName" size="20px" autocomplete="on" autofocus="autofocus" placeholder="Enter Busines Name!" required><br>
+		
+		<p>Please specify the Business address</p>
+		
+		<h5 style="color:red;display:inline;">	* Street:</h5>	<input type="text" name="businessStreet" size="20px" autocomplete="on" placeholder="Street name" required><br>
+		<h5 style="color:red;display:inline;">	* Number:</h5>	<input type="number" name="businessStreetNo" size="20px" autocomplete="on" min="1" max="9999" placeholder="Street Number" required><br>
+	
+	<h5 style="color:red;display:inline;"> * City:</h5> 
+		<select name="businessCity">
+			<option value="Tel Aviv">Tel Aviv</option>
+			<option value="BatYam"> Bat Yam </option>
+			<option value="Ashdod"> Ashdod </option>
+			<option value="Holon"> Holon </option>
+			<option value="Rechovot"> Recovot </option>
+		</select><BR>
+	
+	<h5 style="color:red;display:inline;">	* Zip Code:</h5>	<input type="number" name="businessZipCode" size="20px" autocomplete="on" min="4000" max="9999" placeholder="Zip Code" required><br>
+	<h5 style="color:red;display:inline;">	* Telephone Number:</h5>	<input type="number" name="businessTelephone" size="20px" autocomplete="on" placeholder="Telephone Number" required><br>
+	
+	<h5 style="color:red;display:inline;">	* Latitude input:</h5>	<input type="number" name="businessLatitude" size="20px" autocomplete="on" placeholder="Latitude number" required><br>
+	<h5 style="color:red;display:inline;">	* Longtitude input:</h5>	<input type="number" name="businessLongtitude" size="20px" autocomplete="on" placeholder="Longtitude Number" required><br>
+	
+		
+	<input type="submit" value="Submit">
+	
+
+	</form>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--<div>TODO write content</div>-->
+        Please fill in your details...
+     <br>
+        <form action=Ses5_formprocess_shay.php method=post>
+            Username: <input type=text name=username><p>
+            Password: <input type=password name=password><p>
+            Subscribe Monthly Newsletter: <input type=checkbox name="Subscribe[]" value="monthly_News" checked><p>
+            Subscribe Daily Newsletter: <input type=checkbox name="Subscribe[]" value=dailynewsletter checked><p>
+            Payment Method:<p>
+            <input type=radio value=visa name=payment[] checked>Visa<br>
+            <input type=radio value=paypal name=payment[]>Pay Pal<br>
+            <input type=radio value=cash name=payment[]>Cash<p>
+            City:<select name=city[]>
+             <option>Tel-Aviv</option>
+             <option>Jerusalem</option>
+             <option>Haifa</option>
+             <option>Rehovot</option>
+            </select><p>
+            Preferred Colors:<br>
+            <select name=colors[] multiple>
+             <option>Red</option>
+             <option>Blue</option>
+             <option>White</option>
+             <option>Orange</option>
+             <option>Black</option>
+             <option>Pink</option>
+             <option>Purple</option>
+            </select><p>
+            <input type=submit>
+           </form>
+    </body>
+</html>
+
+

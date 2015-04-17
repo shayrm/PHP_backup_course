@@ -1,0 +1,26 @@
+<script language="JavaScript">
+
+	//creating the xhr object
+	var xhr=new window.XMLHttpRequest();
+	
+	//configure the xhr object
+	xhr.open(	"GET",
+			"data.xml",
+			false);
+
+	//sending the request
+	xhr.send(null);
+
+	//ob is assigned with the reference for the
+	//node object that represents the root element
+	ob = xhr.responseXML.documentElement;
+
+	//childs is assigned with a reference for a nodelist
+	//object that holds references for node objects that
+	//represent the root element childs
+	childs = ob.childNodes;
+
+	
+	
+
+</script>

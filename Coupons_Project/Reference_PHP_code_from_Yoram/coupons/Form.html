@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Coupons</title>
+</head>
+<h1> Create Coupon - Admin Panel </h1> <br>
+<FORM enctype="multipart/form-data" ACTION="index.php" METHOD="Post" id="coupon_form">
+
+    business id:
+    <select name="business_id" form="coupon_form">
+        <option value="1002">Delek</option>
+        <option value="1001">Yellow</option>
+        <option value="1003">Alon</option>
+    </select>
+    <br>
+
+    category id:
+    <select name="category_id" form="coupon_form">
+        <option value="101">Discount</option>
+        <option value="102">Buy x get y</option>
+    </select>
+    <br>
+
+    Coupon id :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <INPUT TYPE=TEXT NAME="couponid">
+    <br>
+
+Coupon Name :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <INPUT TYPE=TEXT NAME="couponname">
+    <br>
+
+   Coupon Description:
+    <textarea rows="3" TYPE=TEXT NAME="coupondescription">  </textarea>
+    <br>
+
+
+    <label for="file">Picture  (Max 1MB):</label>
+    <input type="hidden" name="MAX_FILE_SIZE" value="1048576"/>
+    <input type="file" name="file" id="file"><br><br>
+    <input type="submit" name="submit" value="Submit">
+
+</FORM>
+
+</html>

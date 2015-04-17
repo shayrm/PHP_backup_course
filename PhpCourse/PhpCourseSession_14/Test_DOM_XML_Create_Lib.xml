@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<library>
+  <book>
+    <name>Java Tutorial</name>
+    <pages>24</pages>
+    <auther>James Douglas</auther>
+  </book>
+  <book>
+    <name>XML Fundamentals</name>
+    <pages>20</pages>
+    <auther>Dave Ron</auther>
+  </book>
+  <book>
+    <name>XHTML Guide</name>
+    <pages>27</pages>
+    <auther>Michael Shoolman</auther>
+  </book>
+</library>
